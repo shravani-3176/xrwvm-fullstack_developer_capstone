@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+node_modules/
+cookie.txt
+*.sqlite3
+server/database/node_modules/
+server/frontend/node_modules/
