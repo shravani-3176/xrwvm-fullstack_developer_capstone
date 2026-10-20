@@ -1,0 +1,13 @@
+Command: curl.exe -i http://127.0.0.2:8000/djangoapp/get_cars
+
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 22:00:07 GMT
+Server: WSGIServer/0.2 CPython/3.13.3
+Content-Type: application/json
+X-Frame-Options: DENY
+Content-Length: 563
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+
+{"status": 200, "CarModels": [{"CarModel": "Pathfinder", "CarMake": "Nissan"}, {"CarModel": "Rogue", "CarMake": "Nissan"}, {"CarModel": "Ariya", "CarMake": "Nissan"}, {"CarModel": "C-Class", "CarMake": "Mercedes"}, {"CarModel": "E-Class", "CarMake": "Mercedes"}, {"CarModel": "A4", "CarMake": "Audi"}, {"CarModel": "A5", "CarMake": "Audi"}, {"CarModel": "Sorento", "CarMake": "Kia"}, {"CarModel": "Carnival", "CarMake": "Kia"}, {"CarModel": "Corolla", "CarMake": "Toyota"}, {"CarModel": "Camry", "CarMake": "Toyota"}, {"CarModel": "Kluger", "CarMake": "Toyota"}]}

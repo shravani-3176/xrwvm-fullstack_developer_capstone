@@ -1,0 +1,10 @@
+Command: python manage.py runserver 127.0.0.2:8000
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 21, 2026 - 03:22:11
+Django version 6.1.2, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.2:8000/
+Quit the server with CTRL-BREAK.

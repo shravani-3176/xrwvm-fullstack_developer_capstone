@@ -1,0 +1,13 @@
+Command: curl.exe -i http://127.0.0.2:8000/djangoapp/dealer/15
+
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 21:59:08 GMT
+Server: WSGIServer/0.2 CPython/3.13.3
+Content-Type: application/json
+X-Frame-Options: DENY
+Content-Length: 241
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+
+{"status": 200, "dealer": [{"id": 15, "city": "San Antonio", "state": "Texas", "st": "TX", "address": "5057 Pankratz Hill", "zip": "78225", "lat": 29.3875, "long": -98.5245, "short_name": "Tempsoft", "full_name": "Tempsoft Car Dealership"}]}

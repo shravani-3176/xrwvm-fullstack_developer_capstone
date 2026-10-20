@@ -1,0 +1,15 @@
+Command: curl.exe -i -b cookie.txt http://127.0.0.2:8000/djangoapp/logout
+
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 21:58:18 GMT
+Server: WSGIServer/0.2 CPython/3.13.3
+Content-Type: application/json
+X-Frame-Options: DENY
+Content-Length: 16
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie: sessionid=""; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/; SameSite=Lax
+
+{"userName": ""}

@@ -1,0 +1,13 @@
+Command: curl.exe -i -X POST -H "Content-Type: application/json" -d "{\"userName\": \"testuser\", \"password\": \"[REDACTED]\"}" http://127.0.0.2:8000/djangoapp/login
+
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 21:58:05 GMT
+Server: WSGIServer/0.2 CPython/3.13.3
+Content-Type: application/json
+X-Frame-Options: DENY
+Content-Length: 24
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+
+{"userName": "testuser"}

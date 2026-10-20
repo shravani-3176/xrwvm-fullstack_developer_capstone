@@ -1,0 +1,36 @@
+GitHub Actions CI/CD Workflow Execution Evidence
+
+Workflow Name: Lint Code
+Repository: shravani-3176/xrwvm-fullstack_developer_capstone
+Workflow File: .github/workflows/main.yml
+Run ID: 39504463287
+Run Number: 1
+Trigger Event: push
+Commit SHA: 3d57351293aa0cc7b2865c4766f786119a629c82
+Commit Message: Complete Cars Dealership capstone implementation: views, models, frontend components, and CI/CD workflow
+Run URL: https://github.com/shravani-3176/xrwvm-fullstack_developer_capstone/actions/runs/39504463287
+Job URL: https://github.com/shravani-3176/xrwvm-fullstack_developer_capstone/actions/runs/39504463287/job/118909802016
+
+Status: completed
+Conclusion: success
+Created At: 2026-10-20T21:57:24Z
+Completed At: 2026-10-20T21:57:40Z
+
+Job: Lint Python Files (ID: 118909802016)
+Runner: ubuntu-latest
+Conclusion: success
+
+Executed Steps:
+1. Set up job: completed (success) [1s]
+2. Checkout Repository: completed (success) [2s]
+3. Set up Python: completed (success) [0s]
+4. Install dependencies: completed (success) [5s]
+   Command: python -m pip install --upgrade pip; pip install flake8
+5. Run Flake8: completed (success) [0s]
+   Command: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+            flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+6. Post Set up Python: completed (success) [0s]
+7. Post Checkout Repository: completed (success) [1s]
+8. Complete job: completed (success) [0s]
+
+Final Status: All steps completed successfully with exit code 0.
